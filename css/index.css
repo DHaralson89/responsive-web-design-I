@@ -22,8 +22,8 @@ h1, h2, h3, h4, h5 {
 	   flex-direction: column-reverse;
    }
    .top	{
-	   width: 80%;
-	   margin: 2%;
+	   width: 100%;
+	   margin-bottom: -100px;
 	   justify-content: space-between;  
 	   flex-direction: column-reverse;
    }
@@ -31,10 +31,10 @@ h1, h2, h3, h4, h5 {
 	   display: none;
    }
    .Main-header{
-	   width: 100%;
-	   justify-content: center;
-	   margin-bottom: 400px;
-	   margin-left: 200px;
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 400px;
+	margin-left: 300px;
    }
   .block50 {
 	  width: 45%;
@@ -67,32 +67,47 @@ button {
 	width: 10%;
 	display: block;
 	padding: 10%;
-	border-bottom: 1px black;
+	border-bottom: 1px black 80%;
 	border-width: 100%;
 }
 .block50 {
-	width: 95%;
+	width: 100%;
 	padding: 1%;
 }
 .mid50 {
 	flex-direction: column;
+	margin-left: 180px;
 }
 .block33 {
 	width: 95%;
 	padding: 1%;
+	margin-left: 180px;
 }
 .block3 {
 	width: 95%;
 	padding: 1%;
+	margin-left: 180px;
 }
 .mid33 {
 	flex-direction: column;
 }
 .middle-img {
-	width: 95%;
+	position: absolute;
+	margin-left: 95px;
+	}
+.contact {
+	margin-left: 180px;
+}
+.Main-header{
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 400px;
+	margin-left: 300px;
 }
 
 }
+
+
 
 
 body {
@@ -100,6 +115,10 @@ body {
 	width: 900px;
 }
 
+button {
+	width: 150px;
+	margin-left: 90px;
+}
 .top-section {
 	display: flexbox;
 }
